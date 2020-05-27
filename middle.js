@@ -18,8 +18,9 @@ const assertArraysEqual = function (arr1, arr2) {
 
 const middle = function (arr) {
   if (arr.length <= 2) return [];
+
   const middleGround = arr.length / 2;
-  console.log(middleGround);
+
   return arr.length % 2 !== 0
     ? arr.splice(Math.floor(middleGround), 1)
     : arr.splice(Math.ceil(middleGround) - 1, 2);
