@@ -15,3 +15,7 @@ const countLetters = function (string) {
 };
 
 console.log(`countLetters('sandeep'):'`, countLetters('sandeep'));
+
+assertEqual(countLetters('sandeep').e, 2);
+assertEqual(countLetters('sandeep').a, 1);
+assertEqual(countLetters('sandeep').z, 1);
