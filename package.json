@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@letsandeepio/lotide",
   "version": "1.0.0",
-  "description": "a lodash like library",
+  "description": "a mini lodash like library",
   "main": "index.js",
   "directories": {
     "test": "test"
